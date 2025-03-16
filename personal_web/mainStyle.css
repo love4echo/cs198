@@ -20,6 +20,7 @@ h1 {
 html {
     color: #efefef;
     background-color: #3b3b3b;
+    font-family: 'Courier New', Courier, monospace;
 }
 html.loonafied {
     background-image: url("./photos/sky2.jpg");
