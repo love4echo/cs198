@@ -2,14 +2,24 @@
     font-family: "Syncopate", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .syncopate-bold {
+}  
+.syncopate-bold {
     font-family: "Syncopate", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
+}
+html {
+    color: #efefef;
+    background-color: #3b3b3b;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("./photos/space1.png");
+}
+html.loonafied {
+    background-image: url("./photos/sky2.jpg");
+}
+.loonafied {
+    display: none;
+}  
 h1 { 
     color: #FF8B33;
     font-family: "Syncopate", sans-serif;
@@ -17,20 +27,39 @@ h1 {
     font-style: normal;
 
 }
-html {
-    color: #efefef;
-    background-color: #3b3b3b;
-    font-family: 'Courier New', Courier, monospace;
-}
-html.loonafied {
-    background-image: url("./photos/sky2.jpg");
-}
-.loonafied {
-    display: none;
+h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #genInfo {
     background-color: #E2159E;
 }
 #interest {
     background-color: #EF99E4;
+}
+#kpop {
+    background-color: #AD45C9;
+}
+#resume {
+    background-color: #E349CE;
+}
+#project {
+    background-color: #7c49e3;
+}
+#backButton {
+    background-color: blue;
+}
+#genInfo.loonafied {
+    background-image: url("./photos/Kim_Lip_Solo_Album.jpg");
+}
+#interest.loonafied {
+    background-image: url("./photos/loonaSG.jpg");
+}
+#kpop.loonafied {
+    background-image: url("./photos/Heejin_Solo.jpg");
+}
+#resume.loonafied {
+    background-image: url("./photos/virtual_angel.jpg");
+}
+#project.loonafied {
+    background-image: url("./photos/hihigh.jpg");
 }
