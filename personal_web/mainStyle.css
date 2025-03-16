@@ -1,0 +1,35 @@
+.syncopate-regular {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .syncopate-bold {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+h1 { 
+    color: #FF8B33;
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+html {
+    color: #efefef;
+    background-color: #3b3b3b;
+}
+html.loonafied {
+    background-image: url("./photos/sky2.jpg");
+}
+.loonafied {
+    display: none;
+}
+#genInfo {
+    background-color: #E2159E;
+}
+#interest {
+    background-color: #EF99E4;
+}
