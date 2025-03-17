@@ -18,14 +18,24 @@ html {
     background-size: auto 95vh;
     background-position: top center;
     background-repeat: repeat-x;
-    margin: 3%;
+}
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: auto;
 }
 html.loonafied {
-    background-image: url("./photos/sky2.jpg");
+    background-image: url("./photos/loonafiedBG.png");
+    background-position: end;
+    background-size: 100vw 100vh;
 }
-.loonafied {
-    display: none;
+.loonafied.mainPageButtons {
+    color: #00000000;
 }  
+.loonafied.mainPageButtons:hover {
+    /**/
+    color: #efefef;
+}
 h1 { 
     font-family: "Syncopate", sans-serif;
     font-weight: 700;
@@ -91,18 +101,28 @@ h3 {
 }
 #genInfo.loonafied {
     background-image: url("./photos/Kim_Lip_Solo_Album.jpg");
+    background-position: center;
+    background-size: cover;
 }
 #interest.loonafied {
     background-image: url("./photos/loonaSG.jpg");
+    background-position: center;
+    background-size: cover;
 }
 #kpop.loonafied {
     background-image: url("./photos/Heejin_Solo.jpg");
+    background-position: center;
+    background-size: cover;
 }
 #resume.loonafied {
     background-image: url("./photos/virtual_angel.jpg");
+    background-position: center;
+    background-size: cover;
 }
 #project.loonafied {
     background-image: url("./photos/hihigh.jpg");
+    background-position: center;
+    background-size: cover;
 }
 #genInfo:active {
     background-color: #d08bb9;
