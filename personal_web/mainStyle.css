@@ -15,10 +15,10 @@ html {
     font-weight: 400;
     font-style: normal;
     background-image: url("./photos/space1.png");
-    background-size: auto 100vh;
+    background-size: auto 95vh;
     background-position: top center;
     background-repeat: repeat-x;
-    
+    margin: 3%;
 }
 html.loonafied {
     background-image: url("./photos/sky2.jpg");
@@ -30,30 +30,64 @@ h1 {
     font-family: "Syncopate", sans-serif;
     font-weight: 700;
     font-style: normal;
-
+    font-size: 64px;
 }
 h2, h3 {
     font-family: "Sulphur Point", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 24px;
+}
+.mainPageButtons {
+    background-color: #efefef;
+    display: inline-flex;
+    border-radius: 50%;
+    padding: 10px;
+    width: 10vw;
+    height: 10vw;
+    text-size-adjust: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
 #genInfo {
     background-color: #E2159E;
+    font-size: 2.1vw;
 }
 #interest {
     background-color: #EF99E4;
+    font-size: 1.8vw;
 }
 #kpop {
     background-color: #AD45C9;
+    font-size: 3.6vw;
 }
 #resume {
     background-color: #E349CE;
+    font-size: 2.5vw;
 }
 #project {
     background-color: #7c49e3;
+    font-size: 2.1vw;
 }
 #backButton {
     background-color: blue;
+}
+#choerry {
+    background-color: #FFC533; 
+    background-image: url("./photos/choerry.jpg");
+    background-position: center;
+    background-size: cover;
 }
 #genInfo.loonafied {
     background-image: url("./photos/Kim_Lip_Solo_Album.jpg");
@@ -71,17 +105,26 @@ h2, h3 {
     background-image: url("./photos/hihigh.jpg");
 }
 #genInfo:active {
-    background-color: #CE76B0;
+    background-color: #d08bb9;
 }
 #interest:active {
     background-color: #FADAF6;
 }
 #kpop:active {
-    background-color: #A877B6;
+    background-color: #ba90c5;
 }
 #resume:active {
-    background-color: #D689CC;
+    background-color: #edb3e5;
 }
 #project:active {
     background-color: #A890D7;
+}
+#choerry:active {
+    background-color: #ffde8a; 
+    background-image: url("./photos/choerry_white.png");
+    background-position: center;
+    background-size: cover;
+}
+.fake {
+    background-color: #efefef00;
 }
