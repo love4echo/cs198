@@ -40,7 +40,7 @@ h1 {
     font-family: "Syncopate", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 64px;
+    font-size: 15vh;
 }
 h2, h3 {
     font-family: "Sulphur Point", sans-serif;
@@ -69,35 +69,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-}
-#genInfo {
-    background-color: #E2159E;
-    font-size: 2.1vw;
-}
-#interest {
-    background-color: #EF99E4;
-    font-size: 1.8vw;
-}
-#kpop {
-    background-color: #AD45C9;
-    font-size: 3.6vw;
-}
-#resume {
-    background-color: #E349CE;
-    font-size: 2.5vw;
-}
-#project {
-    background-color: #7c49e3;
-    font-size: 2.1vw;
-}
-#backButton {
-    background-color: blue;
-}
-#choerry {
-    background-color: #FFC533; 
-    background-image: url("./photos/choerry.jpg");
-    background-position: center;
-    background-size: cover;
+    align-items: center;
 }
 #genInfo.loonafied {
     background-image: url("./photos/Kim_Lip_Solo_Album.jpg");
@@ -121,6 +93,60 @@ h3 {
 }
 #project.loonafied {
     background-image: url("./photos/hihigh.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#genInfo {
+    background-color: #E2159E;
+    font-size: 2.1vw;
+}
+#interest {
+    background-color: #EF99E4;
+    font-size: 1.8vw;
+}
+#kpop {
+    background-color: #AD45C9;
+    font-size: 3.6vw;
+}
+#resume {
+    background-color: #E349CE;
+    font-size: 2.5vw;
+}
+#project {
+    background-color: #7c49e3;
+    font-size: 2.1vw;
+}
+#genInfo:hover {
+    background-color: #E2159E;
+    font-size: 2.1vw;
+    background-image: none;
+}
+#interest:hover {
+    background-color: #EF99E4;
+    font-size: 1.8vw;
+    background-image: none;
+}
+#kpop:hover {
+    background-color: #AD45C9;
+    font-size: 3.6vw;
+    background-image: none;
+}
+#resume:hover {
+    background-color: #E349CE;
+    font-size: 2.5vw;
+    background-image: none;
+}
+#project:hover {
+    background-color: #7c49e3;
+    font-size: 2.1vw;
+    background-image: none;
+}
+#backButton {
+    background-color: blue;
+}
+#choerry {
+    background-color: #FFC533; 
+    background-image: url("./photos/choerry.jpg");
     background-position: center;
     background-size: cover;
 }
