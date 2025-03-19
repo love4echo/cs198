@@ -1,0 +1,35 @@
+.navbar {
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+  }
+  
+html {
+    background-color: pink;
+    text-align: center;
+    color: palevioletred;
+}
+a {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+a:hover {
+    color: hotpink;
+}
+ul {
+    background-color: rgb(255, 164, 199);
+    border: 2px solid;
+    border-color: rgb(255, 153, 187);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+li {
+    list-style: none;
+    display: flex;
+    color: palevioletred;
+    padding: 10px;
+}
