@@ -1,28 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Use BrowserRouter as Router
-import Navbar from './components/Navbar';  // Import Navbar
+import Navbar from './components/Navbar'; 
 import './App.css';
-
-const Home = () => {
-  return <h2>Home Page</h2>;
-};
-
-const NotHome = () => {
-  return <h2>NotHome Page</h2>;
-};
+import Home from './pages/Home/Home'; 
+import NotHome from './pages/NotHome/NotHome';  
+import DefPage from './pages/def/defPage';  
+import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
-    <Router>
-      <div>
-        <Navbar />
-        
-        <Routes>
-          <Route path="/Home" element={<Home />} />
-          <Route path="/NotHome" element={<NotHome />} />
-        </Routes>
-      </div>
-    </Router>
+    <div>
+      <Navbar />  
+      
+      <Routes>
+        <Route path="/" element={<DefPage />} />  
+        <Route path="/Home" element={<Home />} />  
+        <Route path="/NotHome" element={<NotHome />} />
+      </Routes>
+    </div>
   );
 };
 

@@ -33,3 +33,9 @@ li {
     color: palevioletred;
     padding: 10px;
 }
+button {
+    background-color: lightpink;
+    border-color: palevioletred;
+    border-radius: 3px;
+    color: rgb(201, 47, 99);
+}
